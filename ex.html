@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ex.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <div class="f-group">
+        <label for="">Country</label>
+        <select name="slct1" id="slct1" onchange="populate(this.id, 'slct2')">
+          <option value="">--Choose Country--</option>
+          <option value="india">INDIA</option>
+          <option value="america">AMERICA</option>
+        </select>
+      </div>
+      <div class="f-group">
+        <label for="">City</label>
+        <select name="slct2" id="slct2"></select>
+      </div>
+    </div>
+
+    <script src="ex.js"></script>
+</body>
+</html>

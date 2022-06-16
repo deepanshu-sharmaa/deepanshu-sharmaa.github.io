@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="blood.png" type="image/x-icon">
+    <link rel="stylesheet" href="stockstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
+    <title>Stock Availability</title>
+</head>
+<body>
+    <div class="top">
+        <a href="index.html"><img src="blood.png" alt="logo" style="height: 100px; width: 50;"></a>
+        <a href="index.html" style="text-decoration: none;"><h1>RED SAVIOUR</h1></a>
+    </div>
+    <h1 class="text" style="font-size: 50px;">Stock Availability</h1>
+    
+
+    <div>
+        <label for="State">State</label>
+        <select name="myState" id="StateCode">
+            <option value="-2">Select State</option>
+            <option value="-1">All</option>
+            <option value="1">Bihar</option>
+            <option value="2">Haryana</option>
+            <option value="3">J&K</option>
+            <option value="4">Jharkhand</option>
+            <option value="5">Punjab</option>
+            <option value="6">Uttar Pradesh</option>
+            <option value="7">Uttarakhand</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="Uttar Pradesh">District</label>
+        <select name="Uttar Pradesh" id="Uttar Pradesh">
+            <option value="-1">Select District</option>
+            <option value="0">All</option>
+            <option value="Amroha">Amroha</option>
+            <option value="Ghaziabad">Ghaziabad</option>
+            <option value="Meerut">Meerut</option>
+            <option value="Mathura">Mathura</option>
+            <option value="Sambhal">Sambhal</option>
+            <option value="Moradabad">Moradabad</option>
+            <option value="Lucknow">Lucknow</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="Blood Group">Blood Group</label>
+        <select name="myBlood" id="BloodGroup">
+            <option value="-1">Select Blood Group</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B-">B-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="Type">Blood Component</label>
+        <select name="myType" id="Type">
+            <option value="-1">Select Blood Component</option>
+            <option value="Whole Blood">Whole Blood</option>
+            <option value="Plasma">Plasma</option>
+            <option value="Platelets">Platelets</option>
+        </select>
+    </div>
+
+    <button name="submit">
+        <strong>Search</strong>
+    </button>
+    <br>
+    <a href="index.html">Back to homepage</a>
+
+</body>
+</html>
